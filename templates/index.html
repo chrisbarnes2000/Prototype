@@ -1,0 +1,39 @@
+<!-- templates/index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+<div class='container'>
+    <div class="jumbotron text-center p-2">
+        <h1 class="jumbotron_header display-3">Dungeon Heroes</h1>
+    </div>
+    
+    <div class="game_display container">
+        <p>Game will be displayed here</p>
+    </div>
+
+    <div class="controls row mt-5">
+        <div class="col-6 center">
+            <div class="row">
+                <button type="button" class="btn btn-secondary">Strong Attack</button>
+                <button type="button" class="btn btn-secondary">Weak Attack</button>
+            </div>
+            <div class="row">
+                <button type="button" class="btn btn-secondary">Flee</button>
+                <button type="button" class="btn btn-secondary">Heal</button>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="row">
+                <button type="button" class="top"></button>
+            </div>
+            <div class="row">
+                <button type="button" class="left"></button>
+                <button type="button" class="right"></button>
+            </div>
+            <div class="row">
+                <button type="button" class="bottom"></button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
