@@ -2,12 +2,13 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div class="game_display container">
+<div class="game_display">
     <p>Game will be displayed here</p>
 </div>
 
-<div class="controls row mt-3">
-    <div class="col-6 center">
+<div class="controls row mt-2">
+    <div class="col-2 text-center spacer"></div>
+    <div class="col-5 center">
         <div class="row">
             <button type="button" class="btn btn-secondary">Strong Attack</button>
             <button type="button" class="btn btn-secondary">Weak Attack</button>
@@ -17,7 +18,7 @@
             <button type="button" class="btn btn-secondary">Heal</button>
         </div>
     </div>
-    <div class="col-6">
+    <div class="col-4">
         <div class="row">
             <button type="button" class="top"></button>
         </div>
@@ -29,5 +30,6 @@
             <button type="button" class="bottom"></button>
         </div>
     </div>
+    <div class="col text-center spacer"></div>
 </div>
 {% endblock %}
