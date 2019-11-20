@@ -1,0 +1,19 @@
+<!-- templates/index.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="game_display container">
+        <p>Game will be displayed here</p>
+        <a href="{{ url_for('gameplay') }}"><button type="button" class="btn btn-secondary">Exit Inventory</button></a>
+    </div>
+
+    <div class="controls row mt-3">
+            <div class="row center">
+                <button type="button" class="btn btn-secondary">Use Item</button>
+                <button type="button" class="btn btn-secondary">Un/Equip Item</button>
+                <button type="button" class="btn btn-secondary">Inspect Item</button>
+                <button type="button" class="btn btn-secondary">Sell Item</button>
+            </div>
+    </div>
+
+{% endblock %}

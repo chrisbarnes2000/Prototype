@@ -1,4 +1,5 @@
 .jumbotron_header { 
+    display: inline;
     font-family:  cursive;
     color: black;
     text-shadow: 3px 5px 4px limegreen ;
@@ -18,8 +19,8 @@
 
 .left {
   display: inline-block;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   border: 0.5em solid #333;
   border-radius: 50%;
   margin-right: 8px;
@@ -42,8 +43,8 @@
 
 .top {
   display: inline-block;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   border: 0.5em solid #333;
   border-radius: 50%;
   margin: auto;
@@ -64,8 +65,8 @@
 
 .bottom {
   display: inline-block;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   border: 0.5em solid #333;
   border-radius: 50%;
   margin: auto;
@@ -86,8 +87,8 @@
 
 .right {
   display: inline-block;
-  width: 4em;
-  height: 4em;
+  width: 6em;
+  height: 6em;
   border: 0.5em solid #333;
   border-radius: 50%;
   margin-right: auto;
