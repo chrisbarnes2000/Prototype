@@ -3,9 +3,18 @@ from flask import Flask, render_template, request, redirect, url_for
 # Setup Flask and login
 app = Flask(__name__)
 
-# INDEX
 @app.route('/')
 @app.route('/index')
+def start():
+    """Show the Start page."""
+    return render_template('start_page.html')
+
+@app.route('/load')
+def loadgame():
+    """Show the load game page."""
+    return render_template('load_game.html')
+
+@app.route('/play')
 def gameplay():
     """Show the game play page."""
     return render_template('game.html')
