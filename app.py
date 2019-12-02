@@ -14,6 +14,11 @@ def loadgame():
     """Show the load game page."""
     return render_template('load_game.html')
 
+@app.route('/save')
+def save():
+    """Show the Save Game Page."""
+    return render_template('save_game.html')
+
 @app.route('/play')
 def gameplay():
     """Show the game play page."""

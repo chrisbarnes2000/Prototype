@@ -43,10 +43,21 @@
     font-size: larger;
 }
 
+.btn-success {
+    margin: 0.5em auto 5em;
+    background: radial-gradient(#6DD400, #0C5F04);
+    width: 10em;
+    height: 10em;
+}
+
 .btn-info {
     margin: 0.5em auto 0.5em;
     width: 5em;
     height: 5em;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .left {
