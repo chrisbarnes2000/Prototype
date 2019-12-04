@@ -10,10 +10,8 @@ To play the game, users will need to utilizes the on-screen controls. Their inte
 
 ### PURPOSE OF PROJECT/USER JOURNEY/PERSONAS: 
 
-#### Digital MockUP:
-    https://docs.google.com/document/d/1hIQi0rbLYB8FXy6J24mUi87Pi5o5Vl7tawzf0UjveRc/edit?usp=sharing
-#### Personas:
-    https://docs.google.com/document/d/1TzHsugJ98LDXU47hu6UyvaQSXcsQ_TI39z7hoLXYX88/edit?usp=sharing
+#### [Digital MockUP](https://docs.google.com/document/d/1hIQi0rbLYB8FXy6J24mUi87Pi5o5Vl7tawzf0UjveRc/edit?usp=sharing)
+#### [Personas](https://docs.google.com/document/d/1TzHsugJ98LDXU47hu6UyvaQSXcsQ_TI39z7hoLXYX88/edit?usp=sharing)
 
 #### User Journey
 
